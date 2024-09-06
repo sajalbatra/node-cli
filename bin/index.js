@@ -4,8 +4,8 @@ import yargs from "yargs"
 import { hideBin } from 'yargs/helpers'
 const argv = yargs(hideBin(process.argv)).argv
 
-if (argv.ships > 3 && argv.distance < 53.5) {
-  console.log('Plunder more riffiwobbles!')
+if (argv.age >= 18) {
+  console.log('Age is g8 18')
 } else {
-  console.log('Retreat from the xupptumblers!')
+  console.log('Age is less than 18')
 }
